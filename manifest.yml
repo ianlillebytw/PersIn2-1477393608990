@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PersIn2
+  host: PersIn2
+  disk_quota: 1024M
+  services:
+  - PersIn2-personality_insights
